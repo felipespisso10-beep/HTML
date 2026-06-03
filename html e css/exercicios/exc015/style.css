@@ -1,0 +1,16 @@
+@charset "UTF-8";
+body {
+    background-color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+h1 {
+    background-color: rgb(199, 10, 10);
+}
+h2 {
+    color: aliceblue;
+}
+p {
+    color: aqua;
+}

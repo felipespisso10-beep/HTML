@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p {
+           display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: aliceblue;
+            background-color: brown;
+        }
+
+        div:hover {
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>exemplo de houver</h1>
+    <p>passe o mause por cima</p>
+    <div>
+        passe o mause aqui
+        <p>texro escondido..</p>
+
+    </div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-class</title>
+    <style>
+        div {
+            display: inline-block;
+            background-color: antiquewhite;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+
+        div:hover {
+            background-color: rgb(255, 145, 0);
+        }
+    </style>
+</head>
+<body>
+    <div id="01">01</div>
+    <div id="02">02</div>
+    <div id="03">03</div>
+</body>
+</html>
