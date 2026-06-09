@@ -31,12 +31,11 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte2);
-    font-size: 10vh;
+    font-size: 10vw;
 }
 
 header > p {
     padding-bottom: 50px;
-    font-size: 2vh;
 }
 
 header a, footer a {
@@ -50,12 +49,12 @@ header a:hover, footer a:hover {
 }
 
 section {
-    padding-bottom: 10vh;
-    padding-top: 10vh;
+    padding-bottom: 10vw;
+    padding-top: 10vw;
     line-height: 2em;
-    padding-left: 60px;
+    padding-left: 40px;
     font-family: var(--fonte3);
-    font-size: 3vh;
+    font-size: 3.5vw;
 }
 
 section > p {
@@ -68,22 +67,22 @@ section > p {
 }
 
 .imagem {
-    background-color: rgba(14, 14, 14, 0.205);
-    color: rgb(255, 255, 255);
-    padding: 5px;
-    text-shadow: 1px 1px 0px;
-    background-size: 100%;
-    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.286);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .imagem > p {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.168);
+    background-color: rgba(0, 0, 0, 0.264);
     padding: 5px;
+    text-shadow: 1px 1px 0px black;
 }
 
 #img01 {
     background-image: url(imagens/background001.jpg) ;
-    background-position: left center;
+    background-position: right center; 
 }
 
 #img02 {
