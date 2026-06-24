@@ -67,3 +67,8 @@ div.media > iframe {
     width: 90%;
 }
 
+html, body {
+}
+::-webkit-scrollbar {
+    display: none;
+}
